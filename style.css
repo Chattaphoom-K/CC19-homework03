@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrapper {
+  background-color: rgb(138, 194, 191);
+  color: white;
+  min-height: 100vh;
+  background-image: url(./pic/green-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+header nav {
+  text-align: right;
+  padding: 20px;
+}
+header nav a {
+  text-decoration: none;
+  padding: 20px;
+  margin-right: 8%;
+  font-weight: bold;
+}
+header nav a:hover {
+  color: #57a3c7;
+}
+main {
+  margin-block: auto;
+}
+.container h1 {
+  font-size: 48px;
+  line-height: 1em;
+}
+.container h5 {
+  font-size: 18px;
+  line-height: 1em;
+  margin-top: 2.5em;
+  letter-spacing: 3px;
+}
+.w3-container {
+  width: 60%;
+  margin: auto;
+}
+.w3-light-blue {
+  height: 16px;
+  width: 75%;
+}
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  background-color: #84c5e4;
+  color: rgb(65, 65, 65);
+  border: none;
+  padding: 6px 16px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+button:hover {
+  background-color: #57a3c7;
+}
+.home-page ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 100vw;
+  gap: 20px;
+  font-size: 32px;
+}
+.home-page ul li a {
+  padding: 8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  text-decoration: none;
+}
+.home-page ul li a:hover {
+  background-color: #57a3c7;
+  color: white;
+}
+
+.end {
+  margin-top: auto;
+  color: rgba(187, 187, 187, 0.6);
+  margin-bottom: 4px;
+  letter-spacing: 2px;
+}
+.end hr {
+  color: rgba(187, 187, 187, 0.6);
+  margin-bottom: 12px;
+  width: 80%;
+  margin-inline: auto;
+}
